@@ -1,10 +1,13 @@
 const router = require('express').Router();
-const exercise = require('./exerciseRoutes')
+const workout = require('./workoutRoutes/index');
+const stats = require('./statsRoutes');
 
-
+// router.get('/workouts/', function(){
+//   console.log("workout routes")
+// })
 // /api prepended to everyRoute inside of here
-router.use('/exerciseRoutes', exercise);
+router.use('/workouts', workout);
 
-router.use ('/stats', exercise);
+router.use ('/workouts/range', stats);
 
 module.exports = router;

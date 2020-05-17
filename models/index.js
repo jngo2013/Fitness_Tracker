@@ -1,4 +1,4 @@
-const Exercises = require ('./Exercises')
+const Exercises = require ('./Workout')
 
 module.exports = {
   Exercises
