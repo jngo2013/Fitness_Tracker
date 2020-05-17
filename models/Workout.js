@@ -28,4 +28,4 @@ WorkoutSchema.virtual("totalDuration").get(function () {
 })
 
 
-module.exports = model('Exercise', WorkoutSchema);
+module.exports = model('Workout', WorkoutSchema);
