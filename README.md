@@ -27,7 +27,7 @@
   MongoDB,Robo 3T, VS Code
 
   ## Questions
-  If there are any questions, please email me [here](jngo2013@gmail.com)
+  If there are any questions, please email me at jngo2013@gmail.com
 
   ### Github
   ![Github Image](https://avatars2.githubusercontent.com/u/60833100?v=4)  
